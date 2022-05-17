@@ -20,8 +20,8 @@ function Header() {
   <Container>
     <Navbar.Brand  href="#home"><img src={Sign} alt="logo"/>
     </Navbar.Brand> 
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
+    <Navbar.Toggle   aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse  id="basic-navbar-nav">
       <Nav className="me-auto">
         <Nav.Link bg="light"  href="#home">Home</Nav.Link>
         <Nav.Link href="#link">Link</Nav.Link>
