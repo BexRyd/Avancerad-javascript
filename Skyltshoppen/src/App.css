@@ -1,1 +1,5 @@
-
+body{
+    height: 900px;
+    background-image: linear-gradient(180deg, #cb7173,#504aa3, #8a1253);
+    
+}
