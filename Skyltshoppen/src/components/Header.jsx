@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../App.css'
 import {  Container, Nav, Navbar,  } from 'react-bootstrap';
-import {NavLink} from 'react-router-dom';
+import {NavLink,Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -24,12 +24,12 @@ function Header() {
     </Navbar.Brand> 
     <Navbar.Toggle   aria-controls="basic-navbar-nav" />
     <Navbar.Collapse  id="basic-navbar-nav">
-      <Nav className="me-auto" style={{marginLeft:"300px"}} >
-        <NavLink bg="light" to="/Vaggskyltar" style={{color:"white",marginRight:"20px"}}>Väggskyltar</NavLink>
-        <Nav.Link to="/Hangandeskylt" style={{color:"white",marginRight:"20px"}}>Hängande skyltar</Nav.Link>
-        <Nav.Link to="/Flaggskylt" style={{color:"white",marginRight:"20px"}}>Flaggskylt</Nav.Link>
-        <Nav.Link to="/" > <img src={Home} alt="home"/> </Nav.Link>
-        <Nav.Link bg="light" to="/kundvagn"> <img src={Cart} alt="shoppingCart"/> </Nav.Link>
+      <Nav className="me-auto" style={{marginLeft:"250px"}} >
+        <NavLink className="Link" bg="light" to="/Vaggskyltar">Väggskyltar</NavLink>
+        <NavLink className="Link" to="/Hangandeskylt">Hängande skyltar</NavLink>
+        <NavLink className="Link" to="/Flaggskylt">Flaggskylt</NavLink>
+        <NavLink className="Link" to="/" > <img src={Home} alt="home"/> </NavLink>
+        <NavLink className="Link" bg="light" to="/kundvagn"> <img src={Cart} alt="shoppingCart"/> </NavLink>
 
       
       </Nav>

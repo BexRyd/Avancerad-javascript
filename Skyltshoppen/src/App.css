@@ -24,6 +24,18 @@ body{
    
 
 }
+.Link{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.Icon{
+    margin-bottom: 10px;
+
+}
+
+
 span{
     color: white;
 }
