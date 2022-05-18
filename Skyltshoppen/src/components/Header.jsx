@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import '../App.css'
-import { CarouselItem, Container, Nav, Navbar,  } from 'react-bootstrap';
+import {  Container, Nav, Navbar,  } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -17,19 +17,19 @@ function Header() {
 
   return (
     <div>
-<div></div>
-<Navbar className='navbarColor'  expand="lg">
+
+<Navbar  className='navbarColor'  expand="lg">
   <Container>
     <Navbar.Brand  href="#home"><img src={Sign} alt="logo"/>
     </Navbar.Brand> 
     <Navbar.Toggle   aria-controls="basic-navbar-nav" />
     <Navbar.Collapse  id="basic-navbar-nav">
-      <Nav className="me-auto">
-        <Nav.Link bg="light"> <img src={Home} alt="home" /> </Nav.Link>
-        <Nav.Link href="#link">Väggskyltar</Nav.Link>
-        <Nav.Link href="#link">Hängande skyltar</Nav.Link>
-        <Nav.Link href="#link">Flaggskylt</Nav.Link>
-        <Nav.Link bg="light"> <img src={Cart} alt="shoppingCart" /> </Nav.Link>
+      <Nav className="me-auto" style={{marginLeft:"300px"}} >
+        <Nav.Link bg="light" href="#link" style={{color:"white",marginRight:"20px"}}>Väggskyltar</Nav.Link>
+        <Nav.Link href="#link" style={{color:"white",marginRight:"20px"}}>Hängande skyltar</Nav.Link>
+        <Nav.Link href="#link" style={{color:"white",marginRight:"20px"}}>Flaggskylt</Nav.Link>
+        <Nav.Link bg="light" > <img src={Home} alt="home"/> </Nav.Link>
+        <Nav.Link bg="light"> <img src={Cart} alt="shoppingCart"/> </Nav.Link>
 
       
       </Nav>

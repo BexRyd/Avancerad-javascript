@@ -8,8 +8,9 @@ body{
 .navbarColor{
     
     min-height: 100px;
-    background-color:#660a3b;
+     background-color:#660a3b; 
     box-shadow: 0px 0px 10px #070707;
+    
 }
 .textFooter{
     min-height: 100px;
