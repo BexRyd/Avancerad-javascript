@@ -7,6 +7,7 @@ import Hangandeskylt from './components/Hangandeskylt'
 import Vaggskyltar from './components/Vaggskyltrar'
 import Kundvagn from './components/Kundvagn'
 import {BrowserRouter as Router,Routes, Route,} from "react-router-dom";
+import Footer from './components/Footer'
 
 
 
@@ -23,7 +24,9 @@ function App() {
   <Route path="/Hangandeskylt" element={<Hangandeskylt />} />
   <Route path="/Vaggskyltar" element={<Vaggskyltar />} />
       </Routes>
+      <Footer/>
       </Router>
+      
   )
 }
 
