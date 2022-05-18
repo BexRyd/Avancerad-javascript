@@ -1,16 +1,16 @@
 import '../App.css'
 
 
-function Home() {
+function Kundvagn() {
   
 
   return (
 
     <div>
-        Välkommen!lopö
+        Kundvagn
     </div>
     
   )
 }
 
-export default Home
+export default Kundvagn
