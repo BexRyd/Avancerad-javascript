@@ -1,16 +1,16 @@
 import '../App.css'
 
 
-function Home() {
+function Flaggskylt() {
   
 
   return (
 
     <div>
-        Välkommen!lopö
+        Flaggskylt
     </div>
     
   )
 }
 
-export default Home
+export default Flaggskylt
