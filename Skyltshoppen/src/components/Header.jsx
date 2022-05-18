@@ -1,3 +1,5 @@
+
+
 import { useState } from 'react'
 import '../App.css'
 import {  Container, Nav, Navbar,  } from 'react-bootstrap';
@@ -11,7 +13,10 @@ import Cart from '../../Public/img/shoppingcart.png'
 
 
 
+import Sign from "../../Public/img/SigniFy_.png";
+
 function Header() {
+
 
 
   
@@ -37,8 +42,9 @@ function Header() {
   </Container>
 </Navbar>
    
+
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
